@@ -1,0 +1,35 @@
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 250px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.product-card.favorited {
+  background-color: #fff0f0;
+  border: 2px solid #ff6b6b;
+}
+
+.product-card button {
+  margin: 10px 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: #f0f0f0;
+}
+
+.features {
+  text-align: left;
+  margin-top: 10px;
+}

@@ -1,0 +1,25 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.clear-favorites {
+  margin: 10px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #ff6b6b;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clear-favorites:hover {
+  background-color: #ff4c4c;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
